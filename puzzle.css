@@ -8,6 +8,14 @@ body {
   height: 150px;
   width: 400px;
 }
+.btn {
+  margin: 10px;
+}
+
+.btn #up {
+  display: block;
+  margin: auto;
+}
 
 .org {
   width: 150px;

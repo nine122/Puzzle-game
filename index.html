@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slide Puzzle</title>
     <link rel="stylesheet" href="puzzle.css" />
-    <script src="puzzle.js"></script>
+    <script src="index2.js"></script>
   </head>
 
   <body>
@@ -13,6 +13,12 @@
     <div class="container">
       <h1>SOLVE THIS PUZZLE!!</h1>
       <div id="board"></div>
+      <div class="btn">
+        <button onclick="moveUp()" id="up">/\</button>
+        <button onclick="moveLeft()" id="left"><</button>
+        <button onclick="moveDown()" id="down">\/</button>
+        <button onclick="moveRight()" id="right">></button>
+      </div>
       <h1>Turns: <span id="turns">0</span></h1>
     </div>
   </body>
